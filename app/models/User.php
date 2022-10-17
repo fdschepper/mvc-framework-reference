@@ -7,12 +7,10 @@
     }
 
     public function getUsers() {
-      $this->db->query("SELECT * FROM `country`;");
+      $this->db->query("SELECT * FROM `richestpeople`;");
 
       $result = $this->db->resultSet();
 
       return $result;
     }
   }
-
-?>
