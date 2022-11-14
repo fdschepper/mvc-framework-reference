@@ -2,7 +2,6 @@
 //include(APPROOT . "/views/includes/head.php" );
 echo $data["title"];
 ?>
-<a href="<?= URLROOT; ?>/people/create">Nieuw record</a>
 <table>
   <thead>
     <th>Id</th>
@@ -10,11 +9,9 @@ echo $data["title"];
     <th>Nettowaarde</th>
     <th>Leeftijd</th>
     <th>Bedrijf</th>
-    <th>update</th>
-    <th>delete</th>
   </thead>
   <tbody>
-    <?= $data['people'] ?>
+    <?= $data['lessen'] ?>
   </tbody>
 </table>
 <a href="<?= URLROOT; ?>/homepages/index">terug</a>
